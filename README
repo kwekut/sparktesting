@@ -1,0 +1,15 @@
+Running local Spark instance in Akka actor. 
+MapReduce King James Version for word frequency..
+
+To Run: sbt run
+
+Spark Core is the base engine for large-scale parallel and distributed data processing. It is responsible for:
+
+memory management and fault recovery
+scheduling, distributing and monitoring jobs on a cluster
+interacting with storage systems
+
+Spark introduces the concept of an RDD (Resilient Distributed Dataset), an immutable fault-tolerant, 
+Transformations are operations (such as map, filter, join, union, and so on) that are performed on an RDD and which yield a new RDD containing the result.
+Actions are operations (such as reduce, count, first, and so on) that return a value after running a computation on an RDD.
+
